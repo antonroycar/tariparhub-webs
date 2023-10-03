@@ -1,0 +1,40 @@
+/* Style for the carousel container */
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+/* Style for the carousel container */
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+}
+
+/* Style for individual carousel slides */
+.carousel-slide {
+    flex: 0 0 100%; /* Each slide takes up 100% of the container width */
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Style for the images inside the slides */
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Additional styling for the navigation buttons (optional) */
+.carousel-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+/* Additional styling for the active navigation button (optional) */
+.carousel-button.active {
+    background-color: #ff5722;
+}

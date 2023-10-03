@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.map-container {
+    position: relative;
+}
+
+.pinpoint {
+    position: absolute;
+    display: none;
+    width: 100px; /* Sesuaikan ukuran hover gambar sesuai kebutuhan */
+    top: -120px; /* Sesuaikan sesuai kebutuhan */
+    left: -50px; /* Sesuaikan sesuai kebutuhan */
+}
+
+#map-image:hover + .pinpoint {
+    display: block;
+}
